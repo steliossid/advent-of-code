@@ -23,4 +23,4 @@ def count_fish(fish, days):
 
 print(f"Part 1: How many lanternfish would there be after 80 days?: {count_fish(fish, days=80)}")
 
-print(f"Part 1: How many lanternfish would there be after 256 days?: {count_fish(fish, days=256)}")
+#print(f"Part 1: How many lanternfish would there be after 256 days?: {count_fish(fish, days=256)}")
