@@ -6,8 +6,7 @@ with open("input/input8.txt") as f:
         for digits in line.split("|")[1].split():
             data.append(digits)
 
-numbers = ["cagedb", "ab", "gcdfa", "fbcad", "eafb", "cdfbe", "cdfgeb", "dab", "acedgfb", "cefabd"]
-
+numbers = ["abcefg", "cf", "acdeg", "acdfg", "bcdf", "abdfg", "abdefg", "acf", "abcdefg", "abcdfg"]
 digits_size = [len(l) for l in numbers]
 
 unique_numbers = []
